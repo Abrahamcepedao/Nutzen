@@ -1,0 +1,638 @@
+/* <--------Google Fonts--------->
+<-----Titles----->
+font-family: 'Bowlby One SC', cursive;
+font-family: 'Lilita One', cursive;
+font-family: 'Baloo Bhai', cursive;
+font-family: 'Rubik', sans-serif;
+font-family: 'Poppins', sans-serif;
+<-----Paragraphs----->
+font-family: 'Roboto', sans-serif;
+font-family: 'Lato', sans-serif;
+font-family: 'Fira Sans', sans-serif;
+font-family: 'Rubik', sans-serif;
+font-family: 'Catamaran', sans-serif;
+font-family: 'Nunito', sans-serif;
+*/
+
+/* <--------Fonts--------->*/
+h1, h2, h3, h4, h5{
+    font-family: 'Poppins', sans-serif;
+}
+p, a, button, span{
+    font-family: 'Nunito', sans-serif;
+}
+
+/* <--------body----------> */
+body{
+	width: 100%;
+	max-width: 100%;
+	background: white;
+	margin-bottom: 0px;
+	position: relative;
+	overflow-x: hidden;
+}
+button{
+    position: relative;
+    padding: 10px 40px 10px 40px;
+    border-radius: 25px;
+    border: none;
+    box-shadow: 0 10px 24px 0 rgba(82, 91, 115, 0.12);
+}
+/* <--------header----------> */
+.my_navbar{
+    background: black;
+    box-shadow: none;
+    margin-bottom: 0px !important;
+}
+.my_navbar_toggler{
+    background: rgb(181, 124, 76) !important;
+}
+.my_nav_link{
+    color: white;
+    margin-left: 15px;
+    margin-right: 15px;
+    font-size: 18px;
+}
+.header_social{
+    color: white;
+    font-size: 20px;
+}
+
+/* <--------Background----------> */
+.logo_background{
+    display: none;
+}
+.background_inner{
+    margin: 0px;
+}
+.background_left{
+    padding: 0px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../img/index/background.png");
+}
+.background_left_holder{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: rgba(10,10,10,0.8);
+    padding: 200px 8% 200px 8%;
+    text-align: center;
+    color: white;
+}
+.background_left_holder h1{
+    font-size: 40px;
+    font-weight: bold;
+}
+.background_left_holder button{
+    background: rgb(181, 124, 76);
+    border: none;
+    color: white;
+    font-size: 20px;
+}
+.plate{
+    margin-bottom: 30px;
+}
+.background_plate{
+    text-align: center;
+}
+.background_plate img{
+    position: relative;
+    width: 150px;
+    margin: auto;
+}
+.background_right{
+    padding: 50px 5% 50px 5%;
+    background: linear-gradient(135deg, rgb(0,10,20)0%, rgb(0,10,50)100%);
+    color: white;
+}
+.plate_info{
+    text-align: center;
+    padding-top: 60px;
+}
+.plate_text{
+    vertical-align: middle;
+    max-width: 270px;
+    margin: auto;
+}
+.line_phrase{
+    position: relative;
+    width: 50px;
+    height: 10px;
+    background: white;
+    float: right;
+}
+
+/* <--------About----------> */
+.about{
+    position: relative;
+    width: 100vw;
+    padding: 100px 5% 100px 5%;
+    background: linear-gradient(135deg, rgb(181,124,76)35%, rgb(205,155,43) 100%);
+    color: white;
+    text-align: center;
+}
+.about h3{
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.about_text{
+    max-width: 600px;
+    margin: auto;
+}
+.about_line{
+    position: relative;
+    width: 50px;
+    height: 10px;
+    background: black;
+    margin: auto;
+    margin-bottom: 30px;
+}
+.about_text p{
+    font-size: 20px;
+}
+
+/* <--------Why us?----------> */
+.why_us{
+    position: relative;
+    width: 100vw;
+    padding: 100px 5% 100px 5%;
+    text-align: center;
+    background: black;
+    color: white;
+}
+.why_us h3{
+    margin-bottom: 50px;
+}
+.why_img img{
+    position: relative;
+    width: 60%;
+    max-width: 300px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+.why_bullet{
+    padding-top: 5px;
+    padding-right: 5px;
+}
+.why_bullet img{
+    position: relative;
+    width: 100px;
+    float: right;
+}
+.why_fact{
+    text-align: left;
+    padding-left: 5px;
+}
+.why_fact h5{
+    color: rgb(243, 179, 126);
+    font-weight: bold;
+}
+
+/* <--------Products----------> */
+.products{
+    position: relative;
+    width: 100vw;
+    padding: 50px 5% 50px 5%;
+    text-align: center;
+}
+.products h3{
+    font-size: 35px;
+    margin-bottom: 50px;
+    font-weight: bold;
+}
+.product{
+    color: white;
+    border-radius: 25px;
+    margin-bottom: 30px;
+}
+.product1{
+    background: linear-gradient(135deg, rgb(181,124,76)0%, rgb(219, 159, 110)100%);
+}
+.product2{
+    background: linear-gradient(135deg, rgb(205,155,43)0%, rgb(238, 191, 88)100%);
+}
+.product3{
+    background: linear-gradient(135deg, rgb(103,158,103)0%, rgb(131, 207, 131)100%);
+}
+.product_info{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.product_info h5{
+    font-size: 25px;
+}
+.product_title{
+    border-radius: 15px;
+    max-width: 300px;
+    margin: auto;
+}
+.product_title1{
+    background: rgb(153,95,47);
+}
+.product_title2{
+    background: rgb(182,132,44);
+}
+.product_title3{
+    background: rgb(55,141,66);
+}
+.product_title p{
+    font-size: 60px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+.product_title2 p{
+    font-size: 50px;
+}
+.product_extra{
+    position: relative;
+    max-width: 300px;
+    margin: auto;
+}
+.product_extra p{
+    position: relative;
+    top: -5px;
+}
+.extra_line{
+    position: relative;
+    width: 100%;
+    height: 3px;
+    border-radius: 25px;
+    background: white;
+    top: 5px;
+}
+.product_img{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    border-radius: 25px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../img/index/background.png");
+}
+
+/* <--------Puntos de venta----------> */
+.punto_venta{
+    position: relative;
+    width: 95vw;
+    margin: auto;
+    padding-top: 50px;
+    text-align: center;
+    background: linear-gradient(135deg, rgb(238, 191, 88)0%, rgb(131, 207, 131)100%);
+    border-radius: 25px;
+    margin-bottom: 50px;
+}
+.punto_venta h3{
+    margin-bottom: 30px;
+    font-size: 35px;
+    font-weight: bold;
+    color: black;
+}
+.store_logos{
+    position: relative;
+    width: 100%;
+    border-radius: 25px;
+    background: linear-gradient(185deg, rgb(0,0,0)0%, rgb(17, 12, 1)100%);
+    padding: 100px 5% 0px 5%;
+}
+.store_logo{
+    margin-bottom: 100px;
+    text-align: center;
+}
+.store_logo img{
+    position: relative;
+    width: 70%;
+    max-width: 150px;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+/* <--------Recipes----------> */
+.recipes{
+    position: relative;
+    width: 100vw;
+    padding: 50px 5% 50px 5%;
+    text-align: center;
+    background: rgb(247, 247, 252);
+    background: linear-gradient(180deg, rgb(247,247,252)0%, rgb(255,255,255));
+}
+.recipes h3{
+    margin-bottom: 30px;
+    font-size: 35px;
+    font-weight: bold;
+}
+.recipe{
+    position: relative;
+    width: 90%;
+    max-width: 400px;
+    margin: auto;
+    border-radius: 15px;
+    background: rgb(250,250,255);
+    box-shadow: 0 10px 24px 0 rgba(82, 91, 115, 0.12);
+    margin-bottom: 30px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.recipe_type{
+    position: relative;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 1px;
+    margin: 0px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.recipe h4{
+    max-width: 80%;
+    margin: auto;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+    border-bottom: 0.5px solid rgb(227, 227, 232);
+}
+.recipe_type p{
+    margin-bottom: 5px;
+}
+.recipe img{
+    position: relative;
+    width: 100%;
+    margin-bottom: 30px;
+}
+.recipe i{
+    margin-left: 10px;
+    color: rgb(181, 124, 76);
+}
+.sweet_recipe{
+    background: linear-gradient(90deg, rgb(194, 134, 84)0%, rgb(219, 159, 110)100%);
+}
+.salty_recipe{
+    background: linear-gradient(90deg, rgb(112, 168, 112)0%, rgb(131, 207, 131)100%);
+}
+
+/* <--------Blogs----------> */
+.blog{
+    position: relative;
+    width: 100vw;
+    padding: 50px 5% 50px 5%;
+    text-align: center;
+    background: linear-gradient(180deg, rgb(247,247,252)0%, rgb(255,255,255));
+}
+.blog h3{
+    margin-bottom: 30px;
+    font-size: 35px;
+    font-weight: bold;
+}
+.blog_post{
+    position: relative;
+    width: 90%;
+    max-width: 400px;
+    margin: auto;
+    border-radius: 15px;
+    background: rgb(250,250,255);
+    box-shadow: 0 10px 24px 0 rgba(82, 91, 115, 0.12);
+    margin-bottom: 30px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.blog_post h4{
+    max-width: 80%;
+    margin: auto;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+    border-bottom: 0.5px solid rgb(227, 227, 232);
+}
+.blog_type{
+    position: relative;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 1px;
+    margin: 0px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.nutricion_blog{
+    background: linear-gradient(90deg, rgb(194, 134, 84)0%, rgb(219, 159, 110)100%);
+}
+.salud_blog{
+    background: linear-gradient(90deg, rgb(112, 168, 112)0%, rgb(131, 207, 131)100%);
+}
+.blog_type p{
+    margin-bottom: 5px;
+}
+.blog_post img{
+    position: relative;
+    width: 100%;
+    margin-bottom: 30px;
+}
+.blog_post i{
+    margin-left: 10px;
+    color: rgb(181, 124, 76);
+}
+
+/* <--------Contacto----------> */
+.contact{
+    position: relative;
+    width: 100vw;
+    background: black;
+    color: white;
+    padding: 50px 5% 50px 5%;
+    text-align: center;
+}
+.contact1{
+    margin-bottom: 30px;
+}
+.contact1 img{
+    position: relative;
+    width: 70%;
+    max-width: 300px;
+    margin-bottom: 30px;
+}
+.contact2, .contact3{
+    border-top: 1px solid white;
+    text-align: left;
+    padding-left: 5%;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.contact2 a, .contact3 a{
+    color: white;
+    text-decoration: none;
+}
+.copy_right{
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    border-top: 1px solid white;
+}
+
+/* <--------Go back button----------> */
+.goback{
+    position: fixed;
+    z-index: 99999999;
+    top: 90vh;
+    left: 85vw;
+}
+.goback a{
+    color: white;
+    text-decoration: none;
+}
+
+@media screen and (min-width:992px){
+    /* <--------Header hover effects--------->*/
+    .header_social, .my_nav_link{
+        transition: ease 0.5s;
+    }
+    .header_social:hover{
+        color: rgb(219, 159, 110);
+        transform: translateY(-5px);
+    }
+    .my_nav_link:hover{
+        color: rgb(219, 159, 110);
+        transform: translateY(-5px);
+    }
+    .my_navbar_inner{
+        position: relative;
+        width: 80%;
+        margin-left: 15%;
+    }
+
+    /* <--------Background----------> */
+    .background_left_holder{
+        padding-top: 350px;
+        padding-bottom: 350px;
+    }
+    .background_right{
+        padding-top: 150px;
+    }
+    /* <--------Background Hover effects----------> */
+    .background_left_holder button, .background_plate img{
+        transition: ease 0.5s;
+    }
+    .background_left_holder button:hover{
+        background: rgb(216, 156, 107);
+    }
+    .background_plate img:hover{
+        transform: rotate(180deg);
+    }
+
+    /* <--------Why us?----------> */
+    .bullet_points{
+        max-width: 500px;
+    }
+    .why_us{
+        padding-bottom: 10px;
+    }
+    .why_img img{
+        margin-left: 39%;
+    }
+    .why_bullet img{
+        float: left;
+    }
+    .why_bullet{
+        padding-top: 10px;
+        margin-bottom: 95px;
+    }
+    .why_fact h5{
+        font-size: 25px;
+    }
+
+    /* <--------Products----------> */
+    .product{
+        overflow: hidden;
+    }
+    .product_info{
+        padding-top: 120px;
+    }
+    .product_img{
+        border-radius: 0px;
+    }
+    .product_info2{
+        left: 41.666666666%;
+    }
+    .producto_img2{
+        left: -58.333333333%;
+    }
+
+    /* <--------Recipes----------> */
+    .recipes h3{
+        margin-bottom: 100px;
+    }
+    .recipes{
+        padding-top: 150px;
+        padding-bottom: 150px;
+    }
+    .recipe_type{
+        padding-bottom: 20px;
+        margin-bottom: -65px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        font-weight: bolder;
+    }
+    /* <--------Recipes Hover effects----------> */
+    .recipe_type, .recipe i{
+        transition: ease 1s;
+    }
+    .recipe img{
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    .recipe:hover .recipe_type{
+        transform: translateY(-50px);
+    }
+    .recipe button:hover{
+        background: rgb(243, 179, 126);
+    }
+    .recipe button:hover i{
+        transform: translateX(10px);
+        color: white;
+    }
+
+    /* <--------Blog----------> */
+    .blog h3{
+        margin-bottom: 100px;
+    }
+    .blog{
+        padding-top: 150px;
+        padding-bottom: 150px;
+    }
+    .blog_type{
+        padding-bottom: 20px;
+        margin-bottom: -65px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        font-weight: bolder;
+    }
+    /* <--------Blog Hover effects----------> */
+    .blog_type, .blog_post i{
+        transition: ease 1s;
+    }
+    .blog_post img{
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    .blog_post:hover .blog_type{
+        transform: translateY(-50px);
+    }
+    .blog_post button:hover{
+        background: rgb(243, 179, 126);
+    }
+    .blog_post button:hover i{
+        transform: translateX(10px);
+        color: white;
+    }
+}
+
+/* <------Biger Content-------> */
+@media screen and (min-width: 1100px){
+    .why_bullet{
+        margin-bottom: 115px;
+    }
+}
